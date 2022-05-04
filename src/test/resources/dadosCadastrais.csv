@@ -1,0 +1,4 @@
+testePreencherFormFullComCsv, name, lastName, firstName, phone, address1, address2, city, state, postalCode, country, employeerNumber, creditLimit
+                        ,Teste Sicredi,  Teste,  seu nome,  51 9999-9999, Av Assis Brasil 3970, Torre D, Porto Alegre, RS, 91000-000, Brasil,001,200
+                        ,Teste Sicredi2, Teste2, seu nome2, 51 2999-9998, Av Assis Brasil 3972, Torre D2, Porto Alegre2, RS1, 21000-002, Brasil,002,302
+                        ,Teste Sicredi3, Teste3, seu nome3, 51 3999-9997, Av Assis Brasil 3973, Torre D3, Porto Alegre3, RS1, 31000-003, Brasil,003,303
