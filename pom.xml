@@ -24,6 +24,7 @@
             <version>4.1.4</version>
         </dependency>
 
+
         <!-- Esta dependencia esta sendo utilizada apenas para o teste sicredi - VUNERABILIDADE ENCONTRADA E DOCUMENTADA NO LINK ABAIXO -->
         <!-- https://mvnrepository.com/artifact/org.easetech/easytest-core -->
         <dependency>

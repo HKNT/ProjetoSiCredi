@@ -20,4 +20,3 @@ public class InstanciaBrowser {
         return browser;
     }
 }
-

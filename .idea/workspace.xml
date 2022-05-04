@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcef0c4a-a927-4d16-a77d-df6511a1c231" name="Changes" comment="revisão das classes de testes e add workspace.xml para facilitar o import do projeto.">
+      <change afterPath="$PROJECT_DIR$/driversChrome/chromedriver_navVersion101/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driversChrome/chromedriver_navVersion102.0.5005.27/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TemaV4Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TemaV4Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/V4FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/V4FormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suporte/GetTimeStamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suporte/GetTimeStamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suporte/InstanciaBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suporte/InstanciaBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suporte/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suporte/Print.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/teste/TestCadastroDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teste/TestCadastroDados.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651638209549</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="revisão das classes de testes e add workspace.xml para facilitar o import do projeto.">
+      <created>1651639846745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651639846745</updated>
+    </task>
+    <task id="LOCAL-00003" summary="revisão das classes de testes e add workspace.xml para facilitar o import do projeto.">
+      <created>1651640077391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651640077391</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +191,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto de teste Sicredi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projeto de teste Sicredi" />
+    <MESSAGE value="revisão das classes de testes e add workspace.xml para facilitar o import do projeto." />
+    <option name="LAST_COMMIT_MESSAGE" value="revisão das classes de testes e add workspace.xml para facilitar o import do projeto." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
