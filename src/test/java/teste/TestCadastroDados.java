@@ -18,11 +18,14 @@ public class TestCadastroDados {
 
     @Before
     public void setUp(){
-        browser = InstanciaBrowser.createInstanceChrome();
+ browser = InstanciaBrowser.createInstanceChrome();
+ //        Testes que rodam no browserStack
+ //        browser = InstanciaBrowser.createInstanceBrowserStack();
+
     }
 
     @Test
-    public void testePreencherFormFull (){
+    public void testePreencherFormFull(){
         String name            = "Teste Sicredi";
         String lastName        = "Teste";
         String firstName       = "seu nome";
@@ -42,7 +45,7 @@ public class TestCadastroDados {
     }
 
     @Test
-    public void testePreencherFormFullComCsv (@Param(name="name")String nameET,
+    public void testePreencherFormFullComCsv(@Param(name="name")String nameET,
                                               @Param(name="lastName")String lastNameET,
                                               @Param(name="firstName")String firstNameET,
                                               @Param(name="phone")String phoneET,

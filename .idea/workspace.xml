@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcef0c4a-a927-4d16-a77d-df6511a1c231" name="Changes" comment="revisão das classes de testes e add workspace.xml para facilitar o import do projeto.">
-      <change afterPath="$PROJECT_DIR$/driversChrome/chromedriver_navVersion101/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driversChrome/chromedriver_navVersion102.0.5005.27/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_05_2022_01_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_05_2022_01_44__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TemaV4Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TemaV4Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/V4FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/V4FormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/suporte/GetTimeStamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suporte/GetTimeStamp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/suporte/InstanciaBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suporte/InstanciaBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/suporte/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suporte/Print.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/teste/TestCadastroDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teste/TestCadastroDados.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,16 +186,5 @@
     <MESSAGE value="Projeto de teste Sicredi" />
     <MESSAGE value="revisão das classes de testes e add workspace.xml para facilitar o import do projeto." />
     <option name="LAST_COMMIT_MESSAGE" value="revisão das classes de testes e add workspace.xml para facilitar o import do projeto." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/suporte/InstanciaBrowser.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
