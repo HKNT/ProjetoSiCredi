@@ -22,7 +22,7 @@ public class InstanciaBrowser {
 
         WebDriver browser;
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         browser = new ChromeDriver(options);
         browser.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 

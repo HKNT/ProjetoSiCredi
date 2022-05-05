@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import suporte.GetTimeStamp;
 import suporte.Print;
 
+import java.time.Duration;
+
 
 public class V4FormPage extends BasePage {
     @Rule
@@ -123,11 +125,18 @@ public class V4FormPage extends BasePage {
 
     //=====================Evidencias
     public void criarEvidenciaFormPreenchido(){
-        Print.printTela(browser,"reports\\imgs"+ GetTimeStamp.dataHora() + tn.getMethodName() + ".png");
+        //String methodName = Thread.currentThread().getStackTrace()[2].getMethodName();
+        Print.printTela(browser,"reports\\imgs\\"+GetTimeStamp.dataHora() + tn.getMethodName() + ".png");
     }
 
     public void criarEvidenciaMensagemSave(){
-        Print.printTela(browser,"reports\\imgs"+ GetTimeStamp.dataHora() + tn.getMethodName() + ".png");
+//        String methodName = Thread.currentThread().getStackTrace()[2].getMethodName();
+        Print.printTela(browser, "reports\\imgs\\"+GetTimeStamp.dataHora() + tn.getMethodName() + ".png");
     }
 
+    public HomeV4Page clicarGoBackToList(){
+        browser.findElement(By.cssSelector("#report-success > p > a:nth-child(2)")).click();
+        browser.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        return new HomeV4Page(browser);
+    }
 }

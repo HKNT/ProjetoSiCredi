@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcef0c4a-a927-4d16-a77d-df6511a1c231" name="Changes" comment="revisão das classes de testes e add workspace.xml para facilitar o import do projeto.">
+    <list default="true" id="dcef0c4a-a927-4d16-a77d-df6511a1c231" name="Changes" comment="removendo .zip">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_05_2022_01_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_05_2022_01_44__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TemaV4Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomeV4Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/V4FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/V4FormPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/suporte/InstanciaBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suporte/InstanciaBrowser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/teste/TestCadastroDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teste/TestCadastroDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/dadosCadastrais.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/dadosCadastrais.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteCadastroDados.testePreencherForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCadastroDados.test1PreencherFormFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sicredi" />
       <extension name="coverage">
         <pattern>
@@ -73,14 +76,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="teste" />
-      <option name="MAIN_CLASS_NAME" value="teste.TesteCadastroDados" />
-      <option name="METHOD_NAME" value="testePreencherForm" />
+      <option name="MAIN_CLASS_NAME" value="teste.TestCadastroDados" />
+      <option name="METHOD_NAME" value="test1PreencherFormFull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteCadastroDados.testePreencherFormComCsv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCadastroDados.testCadastrarDeletarForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sicredi" />
       <extension name="coverage">
         <pattern>
@@ -89,14 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="teste" />
-      <option name="MAIN_CLASS_NAME" value="teste.TesteCadastroDados" />
-      <option name="METHOD_NAME" value="testePreencherFormComCsv" />
+      <option name="MAIN_CLASS_NAME" value="teste.TestCadastroDados" />
+      <option name="METHOD_NAME" value="testCadastrarDeletarForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteCadastroDados.testePreencherFormFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCadastroDados.testeCadastrarDeletarForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sicredi" />
       <extension name="coverage">
         <pattern>
@@ -105,24 +108,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="teste" />
-      <option name="MAIN_CLASS_NAME" value="teste.TesteCadastroDados" />
+      <option name="MAIN_CLASS_NAME" value="teste.TestCadastroDados" />
+      <option name="METHOD_NAME" value="testeCadastrarDeletarForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCadastroDados.testePreencherFormFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sicredi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teste" />
+      <option name="MAIN_CLASS_NAME" value="teste.TestCadastroDados" />
       <option name="METHOD_NAME" value="testePreencherFormFull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteCadastroDados.testePreencherFormFullComCsv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sicredi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="teste" />
-      <option name="MAIN_CLASS_NAME" value="teste.TesteCadastroDados" />
-      <option name="METHOD_NAME" value="testePreencherFormFullComCsv" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,10 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestCadastroDados" />
-        <item itemvalue="JUnit.TesteCadastroDados.testePreencherFormFullComCsv" />
-        <item itemvalue="JUnit.TesteCadastroDados.testePreencherFormFull" />
-        <item itemvalue="JUnit.TesteCadastroDados.testePreencherFormComCsv" />
-        <item itemvalue="JUnit.TesteCadastroDados.testePreencherForm" />
+        <item itemvalue="JUnit.TestCadastroDados.testCadastrarDeletarForm" />
+        <item itemvalue="JUnit.TestCadastroDados.test1PreencherFormFull" />
+        <item itemvalue="JUnit.TestCadastroDados.testePreencherFormFull" />
+        <item itemvalue="JUnit.TestCadastroDados.testeCadastrarDeletarForm" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651640077391</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add testes remotos na plataforma browserStacks">
+      <created>1651697720487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651697720487</updated>
+    </task>
+    <task id="LOCAL-00005" summary="removendo .zip">
+      <created>1651697900157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651697900157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +193,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -185,6 +214,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto de teste Sicredi" />
     <MESSAGE value="revisão das classes de testes e add workspace.xml para facilitar o import do projeto." />
-    <option name="LAST_COMMIT_MESSAGE" value="revisão das classes de testes e add workspace.xml para facilitar o import do projeto." />
+    <MESSAGE value="add testes remotos na plataforma browserStacks" />
+    <MESSAGE value="removendo .zip" />
+    <option name="LAST_COMMIT_MESSAGE" value="removendo .zip" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProjetosGit$TestCadastroDados_testePreencherFormFull.ic" NAME="TestCadastroDados.testePreencherFormFull Coverage Results" MODIFIED="1651706052314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>teste.*</FILTER>
+    </SUITE>
   </component>
 </project>

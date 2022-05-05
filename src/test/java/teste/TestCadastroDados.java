@@ -1,5 +1,6 @@
 package teste;
 
+import net.bytebuddy.build.Plugin;
 import org.easetech.easytest.annotation.DataLoader;
 import org.easetech.easytest.annotation.Param;
 import org.easetech.easytest.runner.DataDrivenTestRunner;
@@ -8,7 +9,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-import pages.TemaV4Page;
+import pages.HomeV4Page;
+import pages.V4FormPage;
 import suporte.InstanciaBrowser;
 
 @RunWith(DataDrivenTestRunner.class)
@@ -18,14 +20,14 @@ public class TestCadastroDados {
 
     @Before
     public void setUp(){
- browser = InstanciaBrowser.createInstanceChrome();
+        browser = InstanciaBrowser.createInstanceChrome();
  //        Testes que rodam no browserStack
- //        browser = InstanciaBrowser.createInstanceBrowserStack();
+ //     browser = InstanciaBrowser.createInstanceBrowserStack();
 
     }
 
-    @Test
-    public void testePreencherFormFull(){
+//    @Test
+    public void testPreencherFormFull(){
         String name            = "Teste Sicredi";
         String lastName        = "Teste";
         String firstName       = "seu nome";
@@ -38,14 +40,14 @@ public class TestCadastroDados {
         String country         = "Brasil";
         String employeerNumber = "001";
         String creditLimit     = "200";
-      new TemaV4Page(browser).alteraTemaParaBootStrapV4().clicarBotaoAddRecord()
+      new HomeV4Page(browser).alteraTemaParaBootStrapV4().clicarBotaoAddRecord()
               .preencherFullForm(name,lastName,firstName,phone,address1,address2,
                       city,state,postalCode,country,employeerNumber,creditLimit)
               .clicarBotaoSave().validaMensagemSave();
     }
 
-    @Test
-    public void testePreencherFormFullComCsv(@Param(name="name")String nameET,
+//    @Test
+    public void testPreencherFormFullComCsv(@Param(name="name")String nameET,
                                               @Param(name="lastName")String lastNameET,
                                               @Param(name="firstName")String firstNameET,
                                               @Param(name="phone")String phoneET,
@@ -58,12 +60,18 @@ public class TestCadastroDados {
                                               @Param(name="employeerNumber")String employeerNumberET,
                                               @Param(name="creditLimit")String creditLimitET){
 
-        new TemaV4Page(browser).alteraTemaParaBootStrapV4().clicarBotaoAddRecord()
+        new HomeV4Page(browser).alteraTemaParaBootStrapV4().clicarBotaoAddRecord()
                 .preencherFullForm(nameET,lastNameET,firstNameET,phoneET,address1ET,address2ET,
                         cityET,stateET,postalCodeET,countryET,employeerNumberET,creditLimitET)
                 .clicarBotaoSave().validaMensagemSave();
     }
 
+    @Test
+    public void testCadastrarDeletarForm(){
+        testPreencherFormFull();
+        new V4FormPage(browser).clicarGoBackToList().buscaNome("Teste Sicredi").marcarCheckBoxGeral().clicarDelete()
+                .validarMensagemConfirmacaoDeletePopUp().clicarDeletePopUp().validarMensagemDeleteConfirmado();
+    }
     @After
     public void tearDown(){
         browser.quit();
