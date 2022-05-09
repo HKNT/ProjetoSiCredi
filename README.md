@@ -25,7 +25,8 @@ CreditLimit: 200
 Clicar no botão Save
 Validar a mensagem “Your data has been successfully stored into the database. Edit Customer or Go back to list” através de uma asserção
 Fechar o browser
-=================================
+
+                                                  =================================
 
 Tarefa 2:
 **Ter a tarefa 1 concluida**
